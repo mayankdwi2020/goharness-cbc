@@ -1,0 +1,18 @@
+footer p {
+    font-size: small;
+    color: gray;
+}
+.contact {
+    color: black;
+    font-style: italic;
+}
+h1 {
+    font-size: 32px;
+}
+.main strong {
+    font-size: larger;
+    color: red;
+}
+.header strong {
+    text-decoration: underline;
+}
