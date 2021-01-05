@@ -1,0 +1,91 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+h1 {
+    font-size: 48px;
+}
+p, input {
+    font-size: 16px;
+}
+label {
+    font-size: 20px;
+    font-weight: 400;
+}
+input {
+    font-weight: 300;
+}
+legend {
+    font-size: 24px;
+}
+ul li {
+    list-style-type: none;
+}
+.sm {
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    font-style: italic;
+    color:gray;
+}
+.sub-text {
+    max-width: 200px;
+    margin: 20px auto;
+}
+/* Header */
+header {
+    padding: 30px;
+}
+header, form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+header, legend, .sub-text {
+    text-align: center;
+}
+/* Form */
+input {
+    padding: 10px 5px;
+}
+li {
+    padding: 20px 0;
+}
+fieldset {
+    background-color: #E7F3F8;
+}
+fieldset:nth-child(1) {
+    margin-bottom: 30px;
+}
+.mr {
+    margin-right: 20px;
+}
+.ml label {
+    margin-left: 10px;
+}
+label {
+    margin-right: 25px;
+}
+.c-width {
+    min-width: 300px;
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: transparent;
+}
+/* Buttons */
+button {
+    min-width: 200px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 20px 25px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.btn-block {
+    margin: auto;
+}
+.btn-blue {
+    background-color: #008DCD;
+}
+.btn-green {
+    background-color: #008C81;
+}
