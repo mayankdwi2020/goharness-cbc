@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Registration Content -->
+    <header>
+        <h1>Welcome to the bootcamp!</h1>
+        <p class="sub-text">Please fill in the following details for us to get to know you better</p>
+    </header>
+    <!-- Registration Form -->
+    <form action="" method="POST">
+        <!-- User Basic Information -->
+        <fieldset>
+            <legend>Your Basic Information</legend>
+            <ul>
+                <li>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name" class="c-width" placeholder="Your Name" required>
+                </li>
+                <li>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="user_email" class="c-width" placeholder="Your Email" required>
+                </li>
+                <li>
+                    <label for="phone" class="mr">Phone:</label>
+                    <input type="phone" id="phone" name="user_phone" class="c-width" placeholder="Phone" required>
+                </li>
+                <li>
+                    <label>Gender:</label>
+                    <input type="radio" id="male" name="gender"><label for="male">Male</label>
+                    <input type="radio" id="female" name="gender"><label for="female">Female</label>
+                </li>
+                <!-- User Location -->
+                <li>
+                    <label for="location">Your Location:</label>
+                    <select name="location" id="location">
+                        <option value="india">India</option>
+                        <option value="us">US</option>
+                        <option value="uk">UK</option>
+                        <option value="aus">Australia</option>
+                        <option value="nz">Newzeland</option>
+                    </select>
+                </li>
+            </ul>   
+            
+        </fieldset>
+        <!-- User Interests -->
+        <fieldset>
+            <legend>Your Interests</legend>
+            <label class="sm">Choose Multiple if you want!</label>
+            <ul class="ml">
+                <li>
+                    <input type="checkbox" id="fe" value="interest_fe"><label for="fe">Frontend Development</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="be" value="interest_be"><label for="be">Backend Development</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="mob" value="interest_mob"><label for="mob">Mobile Development</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="web" value="interest_web"><label for="web">Web Development</label>
+                </li>
+            </ul>         
+        </fieldset>
+        <div class="btn-block">
+            <button type="reset" class="btn-blue">Reset Form</button><button type="submit" class="btn-green">Submit</button>
+        </div>
+        
+    </form>
+</body>
+</html>
