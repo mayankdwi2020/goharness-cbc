@@ -1,0 +1,161 @@
+/* Universal Styles */
+* {
+  box-sizing: border-box;
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+/* Common */
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Fonts */
+h1 {
+  font-size: 48px;
+}
+
+.sec-text {
+  font-size: 28px;
+}
+
+h1,
+.sec-text {
+  font-weight: 400;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 400;
+}
+p {
+  font-size: 20px;
+  font-weight: 300;
+}
+span {
+  font-weight: 700;
+  border-bottom: 4px solid #E76F51;
+}
+
+/* Layout */
+/* Common Layout */
+.container {
+  max-width: 1160px;
+  margin: auto;
+}
+
+.custom-height {
+  height: 100vh;
+}
+
+.txt-cen {
+  text-align: center;
+}
+
+.dp-fx {
+  display: flex;
+}
+
+.fx-jc-sb {
+  justify-content: space-between;
+}
+
+.fx-jc-sa {
+  justify-content: space-around;
+}
+
+.fx-jc-c {
+  justify-content: center;
+}
+
+.fx-jc-c {
+  justify-content: center;
+}
+
+.fx-fd-col {
+  flex-direction: column;
+}
+
+.fx-fd-row {
+  flex-direction: row;
+}
+
+.fx-ai-c {
+  align-items: center;
+}
+
+.fx-ai-fe {
+  align-items: flex-end;
+}
+
+.fx-ai-fs {
+  align-items: flex-start;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.pos-abs {
+  position: absolute;
+}
+
+/* Header */
+header {
+  background: #264653;
+}
+
+/* Navigation */
+nav {
+  position: fixed;
+  background-color: #E76F51;
+  width: 100%;
+  z-index: 999;
+  padding: 10px;
+
+}
+
+nav a {
+  color: white;
+}
+
+/* Navigation Logo */
+.logo img {
+  width: 56px;
+  height: 56px;
+}
+
+.logo {
+  flex-grow: 1;
+}
+
+.nav-links li:nth-of-type(+n+2) {
+  margin-right: 30px;
+}
+
+/* Hero Section */
+.hero {
+  color: white;
+}
+
+.hero figure img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  padding: 10px;
+  border: 4px solid #E76F51;
+}
+
+/* Down Arrow */
+.down-arrow {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 20px solid white;
+  bottom: 11px;
+  left: 50%;
+}
