@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta Tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/svg" href="/resources/images/portfolio.svg" />
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/resources/styles/normalize.css">
+  <link rel="stylesheet" href="/resources/styles/main.css">
+  <title>Mayank's Portfolio</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="custom-height bg-color-primary">
+    <!-- Navigation -->
+    <nav class="bg-color-secondary">
+      <ul class="container nav-links dp-fx fx-jc-sb fx-ai-c">
+        <li class="logo"><a href="#"><img src="/resources/images/logo.png" alt="My Logo"></a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero custom-height txt-cen dp-fx fx-jc-c fx-fd-col pos-rel">
+      <figure>
+        <img src="/resources/images/hero-img.jpg" alt="Hero image">
+      </figure>
+      <div class="hero-content primary-color">
+        <h1>Hi, I'm <span>Mayank</span></h1>
+        <p class="sec-text">I'm a <span>Full Stack Web Developer</span></p>
+      </div>
+      <a href="#about" class="down-arrow pos-abs"></a>
+    </section>
+  </header>
+  <!-- Main -->
+  <main>
+    <!-- About Section -->
+    <section class="about container" id="about">
+      <h2 class="txt-cen">About Me</h2>
+      <p>I've close to 13 years of professional experience in distinct realms such as <span>Customer/Tech
+          Support</span>, <span>Content/Technical Writing</span>, <span>Product Support</span>, <span>Product Support
+          Lead</span> and switched to a <span>Web Developer</span> profile in the year of 2019.
+      </p>
+      <p>I'm currently training to be a Full Stack Web Developer at <a href="https://www.goharness.in/"
+          class="link-text" target="_blank">goHarness Coding School</a>.</p>
+    </section>
+    <!-- Skills Section -->
+    <section class="skills txt-cen bg-color-primary" id="skills">
+      <h2 class="txt-cen primary-color">Skills</h2>
+      <div class="wrapper container dp-fx fx-jc-sb fx-wrap">
+        <article class="card">
+          <h3 class="html">HTML</h3>
+          <figure>
+            <img src="/resources/images/html-5.svg" alt="HTML 5 icon">
+          </figure>
+        </article>
+        <article class="card">
+          <h3 class="css">CSS</h3>
+          <figure>
+            <img src="/resources/images/css.svg" alt="CSS 3 icon">
+          </figure>
+        </article>
+        <article class="card">
+          <h3 class="js">Javascript</h3>
+          <figure>
+            <img src="/resources/images/javascript.svg" alt="Vanilla Javascript icon">
+          </figure>
+        </article>
+        <article class="card">
+          <h3 class="mongo">Databases</h3>
+          <figure>
+            <img src="/resources/images/mongodb-1.png" alt="Mongo database icon">
+          </figure>
+          <p>Mongo DB</p>
+
+        </article>
+        <article class="card">
+          <h3 class="node">Backend</h3>
+          <figure>
+            <img src="/resources/images/nodejs.svg" alt="Node Js icon">
+          </figure>
+          <p>Node JS</p>
+
+        </article>
+        <article class="card">
+          <h3 class="frameworks">Frameworks</h3>
+          <ul>
+            <li>Bootstrap</li>
+            <li>Tailwind</li>
+            <li>Redux</li>
+            <li>React</li>
+            <li>Angular</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+      <h2 class="txt-cen">Projects</h2>
+      <div class="wrapper container">
+        <article class="img-first two-col dp-fx fx-jc-sb fx-ai-c">
+          <figure>
+            <img src="/resources/images/pro-setmore.png" alt="Setmore appointments website screenshot">
+          </figure>
+          <div class="content">
+            <h3>Setmore Appointments</h3>
+            <p>I worked extensively on optimizing the old legacy code along with developing new branding site from
+              scratch.</p>
+            <a href="https://www.setmore.com/" class="button" target="_blank">View Project</a>
+          </div>
+        </article>
+        <hr>
+        <article class="content-first two-col dp-fx fx-jc-sb fx-ai-c">
+          <div class="content">
+            <h3>Setmore Blog</h3>
+            <p>I worked with a WordPress Developer to build the new Setmore blog theme from scratch using HTML and CSS.
+            </p>
+            <a href="https://www.setmore.com/blog/" class="button mb-4" target="_blank">View Project</a>
+          </div>
+          <figure>
+            <img src="/resources/images/pro-setmore-wp.png" alt="Setmore appointments blog screenshot">
+          </figure>
+        </article>
+        <hr>
+        <article class="img-first two-col dp-fx fx-jc-sb fx-ai-c">
+          <figure>
+            <img src="/resources/images/pro-3.png" alt="Yocoboard time tracking website screenshot">
+          </figure>
+          <div class="content">
+            <h3>Yoco Board</h3>
+            <p>I helped the Yocoboard's web app team in building new UI from the ground up.</p>
+            <a href="https://www.yocoboard.com/" class="button" target="_blank">View Project</a>
+          </div>
+        </article>
+        <hr>
+        <article class="content-first two-col dp-fx fx-jc-sb fx-ai-c">
+          <div class="content">
+            <h3>Registration Form</h3>
+            <p>This is a side project that I worked on. It's an imaginative Signup form for a marathon.</p>
+            <a href="https://practice-reg-form.netlify.app/" class="button mb-4" target="_blank">View Project</a>
+          </div>
+          <figure>
+            <img src="/resources/images/form.jpg" alt="people running in a marathon">
+          </figure>
+        </article>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="contact bg-color-primary txt-cen" id="contact">
+      <h2 class="primary-color">Contact</h2>
+      <form action="/index.html" method="POST" class="container">
+        <ul>
+          <li>
+            <input type="text" placeholder="Name" size="40">
+          </li>
+          <li>
+            <input type="email" placeholder="Email" size="40">
+          </li>
+          <li>
+            <textarea name="message" id="message" cols="39" rows="5" placeholder="What's up?"></textarea>
+          </li>
+        </ul>
+        <button type="submit" class="button">Submit</button>
+      </form>
+    </section>
+  </main>
+  <!-- Main Ends -->
+  <!-- Footer -->
+  <footer>
+    <div class="container wrapper dp-fx fx-jc-sb fx-ai-c">
+      <div class="cr">
+        <p>&copy; Mayank Dwivedi</p>
+      </div>
+      <div class="social-icons">
+        <a href="https://github.com/mayankdwi2020" target="_blank"><img src="/resources/images/github.svg"
+            alt="Github icon"></a>
+        <a href="https://www.linkedin.com/in/mayankdwi/" target="_blank"><img src="/resources/images/linkedin.svg"
+            alt="LinkedIn icon"></a>
+        <a href="https://twitter.com/MayankDwi2020" target="_blank"><img src="/resources/images/twitter.svg"
+            alt="Twitter icon"></a>
+      </div>
+
+    </div>
+  </footer>
+</body>
+
+</html>
