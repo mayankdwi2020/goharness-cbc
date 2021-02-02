@@ -1,0 +1,31 @@
+/* Fonts */
+h1 {
+  font-size: 48px;
+}
+
+.sec-text {
+  font-size: 28px;
+}
+
+h1,
+.sec-text {
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 400;
+}
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+span {
+  font-weight: 700;
+  border-bottom: 3px solid #E76F51;
+}
